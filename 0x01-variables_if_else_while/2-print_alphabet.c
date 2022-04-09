@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(alph);
 	}
-	purchar('\n');
+	putchar('\n');
 return (0);
 }
 
