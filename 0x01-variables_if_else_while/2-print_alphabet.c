@@ -13,5 +13,6 @@ int main(void)
 		putchar(alph);
 	}
 	purchar('\n');
-return (0)
+return (0);
 }
+
