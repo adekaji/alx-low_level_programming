@@ -34,9 +34,9 @@ number = (s[i] - 48) + number * 10;
 if (s[i + 1] == ' ')
 break;
 }
-else if (s[i]m== '-')
+else if (s[i] == '-')
 {
-sign *= -1;
+sign *= - 1;
 }
 
 }
