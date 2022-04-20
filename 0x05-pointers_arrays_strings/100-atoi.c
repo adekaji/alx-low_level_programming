@@ -36,7 +36,7 @@ break;
 }
 else if (s[i] == '-')
 {
-sign *= - 1;
+sign *= -1;
 }
 
 }
