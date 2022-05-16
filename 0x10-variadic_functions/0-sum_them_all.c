@@ -1,3 +1,9 @@
+/**
+* Task 0 - code by Godwin Ajiboye
+* sum_them_all file
+*
+*/
+
 #include "variadic_functions.h"
 #include <stdarg.h>
 
@@ -18,7 +24,7 @@ int sum_them_all(const unsigned int n, ...)
 	va_start(l, n);
 
 
-	for (a = 0; i < n; a++)
+	for (a = 0; a < n; a++)
 		sum += va_arg(l, int);
 
 	va_end(l);
