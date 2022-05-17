@@ -15,7 +15,7 @@ unsigned int a = 0;
 unsigned int b;
 unsigned int c = 0;
 char *str;
-const char arg[] = "cifs";
+const char arg[] = "abcd";
 
 va_start(l, format);
 while (format && format[a])
@@ -37,16 +37,16 @@ b++;
 switch (format[a])
 
 {
-case 'c':
+case 'a':
 printf("%c", va_arg(l, int)), c = 1;
 break;
-case 'a':
+case 'b':
 printf("%d", va_arg(l, int)), c = 1;
 break;
-case 'f':
+case 'c':
 printf("%f", va_arg(l, double)), c = 1;
 break;
-case 's':
+case 'd':
 str = va_arg(l, char *), c = 1;
 if (!str)
 
