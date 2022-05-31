@@ -14,11 +14,11 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	int i, t = 0;
 	unsigned long int num;
-	unsigned long int flip = n ^ m;
+	unsigned long int special = n ^ m;
 
 	for (i = 63; i >= 0; i--)
 	{
-		num = flip >> i;
+		num = special >> i;
 
 		if (num & 1)
 			t++;
