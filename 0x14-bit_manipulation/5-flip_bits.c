@@ -2,7 +2,7 @@
 
 /**
  * flip_bits - counts the number of bits to flip
- * around 
+ * around
  * @n: points to number 1
  * @m: points to number 2
  * t is the count
