@@ -5,7 +5,7 @@
  * 
  * @n: points to number 1
  * @m: points to number 2
- *
+ * t: is the count
  * Return: number of bits to flip
  */
 
@@ -19,8 +19,8 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	{
 		num = flip >> i;
 		if (num & 1)
-			count++;
+			t++;
 	}
 
-	return (count);
+	return (t);
 }
