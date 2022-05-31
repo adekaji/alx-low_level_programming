@@ -2,10 +2,11 @@
 
 /**
  * flip_bits - counts the number of bits to flip
- * 
+ * around 
  * @n: points to number 1
  * @m: points to number 2
- * t: is the count
+ * t is the count
+ *
  * Return: number of bits to flip
  */
 
@@ -18,6 +19,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	for (i = 63; i >= 0; i--)
 	{
 		num = flip >> i;
+
 		if (num & 1)
 			t++;
 	}
