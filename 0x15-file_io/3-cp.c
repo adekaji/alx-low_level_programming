@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - copies the content of a file to another
- * @argc: arguments
+ * main - copies the content of a file to another file
+ * @argc: number of arguments passed
  * @argv: double pointer
- * Return: number of letters read and printed
+ * Return: the actual number of letters it could read and print
  */
 
 int main(int argc, char **argv)
