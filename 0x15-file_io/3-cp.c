@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cp_file_from_file_to - copies the content of a file to another
+ * cp - copies the content of a file to another
  * @argc: arguments
  * @argv: double pointer
  * Return: number of letters read and printed
